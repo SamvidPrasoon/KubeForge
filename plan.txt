@@ -1,0 +1,55 @@
+Day 1 — Mon, Nov 3 (Today) — MVP skeleton + local AI proof-of-concept
+
+Scaffold Next.js app. done
+
+Add Monaco editor for JSON/YAML editing.
+
+Add js-yaml conversion utilities.
+
+Integrate transformers.js in-browser model; implement a Fix YAML button that runs locally and updates the editor.
+
+Deliverable: Working dev server where you can paste broken YAML, click “Fix YAML”, and receive corrected YAML locally.
+
+
+
+
+
+
+
+Day 2 — Tue, Nov 4 — JSON→YAML engine + presets + validation
+
+Define KubeForge JSON schema (monaco JSON schema).
+
+Implement JSON → fully-formed Kubernetes YAML conversion (Deployment, Service, optional Ingress).
+
+Add presets/blueprints (node, nginx, postgres).
+
+Add AJV validation and inline error messages.
+
+Deliverable: JSON that generates multi-file YAML bundle and inline validation.
+
+Day 3 — Wed, Nov 5 — UI polish + export options + templates
+
+Visual improvements (shadcn/ui or Tailwind components).
+
+Add download ZIP, copy-to-clipboard, and export-as-Helm basic template.
+
+Add template gallery and import/export of templates.
+
+Deliverable: polished UI + download/export features.
+
+Day 4 — Thu, Nov 6 — Deploy flow & local cluster integration
+
+Add kubeconfig upload or kubectl-like deploy preview (dry-run using kubectl in backend if you provide a backend).
+
+Add YAML → JSON reverse conversion.
+
+Add diffs and preview of generated manifests.
+
+Deliverable: Simulated deploy/dry-run and YAML→JSON conversion.
+
+Day 5 — Fri, Nov 7 — QA, docs, and video/demo
+
+Manual QA, fix edge cases, add documentation (README + usage guide), and make a short demo script or video.
+
+Deliverable: repo ready for sharing; README with “how to run” and basic tutorial.
